@@ -21,7 +21,7 @@ Digital payments can become difficult in low-connectivity situations. airpay is 
 - **Presentation (PPT/PDF):** To be added
 
 ## Screenshots
-Screenshots will be added in the `screenshots/` folder.
+![airpay demo screenshot](./screenshots/airpay-demo.png)
 
 ## How to Run Locally
 Project demo assets and additional details will be shared through the links above.
