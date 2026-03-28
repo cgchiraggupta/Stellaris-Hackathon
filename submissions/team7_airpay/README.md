@@ -7,16 +7,18 @@ team 7
 | Name | Role | GitHub |
 |------|------|--------|
 | Chirag Gupta | Developer | @cgchiraggupta |
+| Sparshika | Team Member | To be added |
+| Meet Khurana | Team Member | To be added |
 
 ## Problem Statement
-Digital payments can become difficult in low-connectivity situations. airpay is focused on improving convenience and accessibility for such cases.
+Many users face difficulty completing digital payments when connectivity is poor or unstable. airpay is focused on improving accessibility and convenience by exploring a smoother payment experience for such conditions.
 
 ## Tech Stack
 - Android
 - Kotlin
 
 ## Links
-- **Live Demo:** To be added
+- **Live Demo:** https://airpaywebsite.vercel.app/about
 - **Video Demo:** https://youtube.com/shorts/viAPPQx1r9U?si=aYHEXjK7b6zZsqi7
 - **Presentation (PPT/PDF):** To be added
 
