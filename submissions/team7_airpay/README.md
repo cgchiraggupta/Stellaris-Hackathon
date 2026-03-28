@@ -17,7 +17,7 @@ Digital payments can become difficult in low-connectivity situations. airpay is 
 
 ## Links
 - **Live Demo:** To be added
-- **Video Demo:** To be added
+- **Video Demo:** https://youtube.com/shorts/viAPPQx1r9U?si=aYHEXjK7b6zZsqi7
 - **Presentation (PPT/PDF):** To be added
 
 ## Screenshots
