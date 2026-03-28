@@ -20,7 +20,7 @@ Many users face difficulty completing digital payments when connectivity is poor
 ## Links
 - **Live Demo:** https://airpaywebsite.vercel.app/about
 - **Video Demo:** https://youtube.com/shorts/viAPPQx1r9U?si=aYHEXjK7b6zZsqi7
-- **Presentation (PPT/PDF):** To be added
+- **Presentation (PPT/PDF):** https://drive.google.com/file/d/1iFc6vUQjXlpI-kgZgBZYivRLXWyG0q9p/view?usp=sharing
 
 ## Screenshots
 ![airpay screenshot 1](./screenshots/airpay-1.jpeg)
