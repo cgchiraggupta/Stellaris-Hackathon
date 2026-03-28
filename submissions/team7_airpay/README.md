@@ -30,6 +30,9 @@ Many users face difficulty completing digital payments when connectivity is poor
 ## How to Run Locally
 Project demo assets and additional details will be shared through the links above.
 
+## Public Code Sample
+A small UI-only code sample is included in `public-ui/` for hackathon review. It is a static frontend preview and does not expose internal application logic or private implementation details.
+
 ## Submission Notes
 - This public submission contains only non-sensitive hackathon materials.
 - Core source code and internal implementation details are intentionally excluded.
