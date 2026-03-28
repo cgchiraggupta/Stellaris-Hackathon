@@ -1,0 +1,37 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0d0d0d;
+  --color-surface: #1a1a1a;
+  --color-surface-elevated: #242424;
+  --color-divider: #2a2a2a;
+  --color-primary: #1a1a2e;
+  --color-accent: #e94560;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b0b0b0;
+  --color-text-hint: #666666;
+  --color-success: #00c853;
+  --color-flow-shell-start: #5a45f6;
+  --font-heading: 'Clash Display', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
