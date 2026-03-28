@@ -37,13 +37,3 @@ Project demo assets and additional details will be shared through the links abov
 3. The payment flow is designed around low-connectivity conditions using GSM-based interaction.
 4. The user proceeds through the guided screens and completes the action from the device side.
 5. The app focuses on a smoother frontend experience for situations where standard internet-based flows are less reliable.
-
-## Public Code Sample
-A small UI-only code sample is included in `public-ui/` for hackathon review. It is a static frontend preview and does not expose internal application logic or private implementation details.
-
-## Website Frontend Sample
-A small set of presentational frontend files derived from the public AirPay website is included in `website-frontend/`. This is limited to UI-facing code and does not include backend or private application logic.
-
-## Submission Notes
-- This public submission contains only non-sensitive hackathon materials.
-- Core source code and internal implementation details are intentionally excluded.
