@@ -31,6 +31,8 @@ Many users face difficulty completing digital payments when connectivity is poor
 ## How to Run Locally
 Project demo assets and additional details will be shared through the links above.
 
+Frontend reference files from the public website are included in the `app/` folder.
+
 ## Workflow
 1. The user opens airpay and starts a payment journey through a simple mobile interface.
 2. The app helps the user review payment information in a cleaner and more accessible format.

@@ -3,7 +3,13 @@ import { useEffect } from 'react';
 import Lenis from 'lenis';
 import { HeroSection } from './components/HeroSection';
 import { FeaturesSection } from './components/FeaturesSection';
+import { DownloadSection } from './components/DownloadSection';
+import { HowToUseSection } from './components/HowToUseSection';
+import { ContactSection } from './components/ContactSection';
+import { Footer } from './components/Footer';
+import { AboutPage } from './pages/AboutPage';
 
+// This component can use useLocation because it's inside Router
 function AppContent() {
   const location = useLocation();
   const showAboutButton = location.pathname === '/';
@@ -33,6 +39,7 @@ function AppContent() {
 
   return (
     <main className="bg-background text-text-primary min-h-screen font-mono selection:bg-accent selection:text-background">
+      {/* Show button only on home page */}
       {showAboutButton && (
         <div className="fixed top-6 right-6 z-50">
           <Link
@@ -45,21 +52,23 @@ function AppContent() {
       )}
 
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <HeroSection />
-              <FeaturesSection />
-            </>
-          }
-        />
-        <Route path="/about" element={<div className="p-10">About page in website repo.</div>} />
+        <Route path="/" element={
+          <>
+            <HeroSection />
+            <FeaturesSection />
+            <DownloadSection />
+            <HowToUseSection />
+            <ContactSection />
+            <Footer />
+          </>
+        } />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </main>
   );
 }
 
+// Main App component just wraps everything with Router
 export default function App() {
   return (
     <Router>
